@@ -1,2 +1,2 @@
 import nltk
-ntk.download('punkt')
+nltk.download('punkt')
