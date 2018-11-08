@@ -23,4 +23,4 @@ async def c(text):
     """Have a Cosby-sation!"""
     await bot.say(ob.response(text))
 
-bot.run("NTA5NzU2MDAzMTczMjY5NTA0.DsSc0A.8juFC-RYuy3r6gUKIPFqRm_FRvs")
+bot.run()
