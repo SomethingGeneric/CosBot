@@ -23,4 +23,8 @@ async def c(text):
     """Have a Cosby-sation!"""
     await bot.say(ob.response(text))
 
-bot.run()
+    
+f = open('token')
+tk = f.read()
+f.close()
+bot.run(tk)
