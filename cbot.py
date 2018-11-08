@@ -6,10 +6,9 @@ from time import sleep
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
-chatbot = ChatBot('Bill Cosby')
+chatbot = ChatBot('Bill Cosby', trainer='chatterbot.trainers.ChatterBotCorpusTrainer')
 
-trainer = ChatterBotCorpusTrainer(chatbot)
-trainer.train("chatterbot.corpus.english")
+chatbot.train("chatterbot.corpus.english")
 
 bot = commands.Bot(command_prefix='&', description="ChatterBot")
 
