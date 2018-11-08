@@ -16,8 +16,8 @@ def log(text):
     f.write("\n"+text)
     f.close()
 
-print("\n"*200
-log("--Restart--"))
+print("\n"*200)
+log("--Restart--")
 
 while True:
     i = input("User: ")
