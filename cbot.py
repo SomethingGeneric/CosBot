@@ -25,4 +25,4 @@ async def c(text):
     """Have a Conversation!"""
     await bot.say(str(chatbot.get_response(text)))
 
-bot.run()
+bot.run("NTA5ODMyMTE2MDUwMDY3NDU3.DsY0Ww.tf75C9cesSdFqxYoGKyPGHV59W0")
