@@ -4,3 +4,4 @@ tflearn
 nltk
 discord.py
 chatterbot
+chatterbot-voice
