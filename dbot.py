@@ -23,4 +23,4 @@ async def c(text):
     """Have a Cosby-sation!"""
     await bot.say(ob.response(text))
 
-bot.run("tk")
+bot.run()
