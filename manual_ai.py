@@ -2,6 +2,11 @@ import os
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
+import rmutil
+
+r = rmutil.util()
+r.do()
+
 chatbot = ChatBot('Bill Cosby', trainer='chatterbot.trainers.ChatterBotCorpusTrainer')
 
 chatbot.train("chatterbot.corpus.english")

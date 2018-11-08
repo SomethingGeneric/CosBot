@@ -5,6 +5,12 @@ import random
 from time import sleep
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
+import os
+
+import rmutil
+
+r = rmutil.util()
+r.do()
 
 chatbot = ChatBot('Bill Cosby', trainer='chatterbot.trainers.ChatterBotCorpusTrainer')
 
