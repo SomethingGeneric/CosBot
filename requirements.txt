@@ -1,6 +1,2 @@
-scipy
-tensorflow==1.5
-tflearn
-nltk
 discord.py
 chatterbot
