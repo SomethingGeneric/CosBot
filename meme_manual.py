@@ -28,3 +28,5 @@ while True:
         os.system("cowsay " + r)
         os.system("say " + r)
         log("AI: " + r)
+    else:
+        break

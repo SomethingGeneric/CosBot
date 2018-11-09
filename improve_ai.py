@@ -17,7 +17,8 @@ def log(text):
     f = open('logAI2.txt','a')
     f.write("\n"+text)
     f.close()
-    print(text)
+    os.system('cowsay "' + text +'"')
+    os.system('say "' + text +'"')
 
 print("\n"*200)
 log("---Restart---")
