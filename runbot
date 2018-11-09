@@ -1,6 +1,0 @@
-./reqsinstall.sh
-cd Bot
-python3.6 train.py
-cd ..
-clear
-python3.6 dbot.py
