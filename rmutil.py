@@ -4,13 +4,14 @@ class util:
         self.base = base = "~/.local/lib/python3.6/site-packages/chatterbot_corpus/data/english/"
         return
     def do(self):
-        remove = ["ai","computers","health","history","literature","psychology","science"]
+        remove = ["ai","computers","health","history","literature","psychology","science","trivia"]
         c = 0
         m = len(remove)
         while c != m:
             this = str(remove[c])
             tp = self.base + this + ".yml"
             os.system("sudo rm " + tp)
+            print("Removed " + this)
             c += 1
 
         if os.path.exists(self.base + "cosby.yml"):

@@ -6,6 +6,7 @@ import rmutil
 
 r = rmutil.util()
 r.do()
+print("\n"*200)
 
 chatbot = ChatBot('Bill Cosby', trainer='chatterbot.trainers.ChatterBotCorpusTrainer')
 
