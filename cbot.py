@@ -29,8 +29,9 @@ async def on_ready():
 @bot.command(description="Conversation")
 async def c(*text):
     """Have a Conversation!"""
-    print(str(text))
-    await bot.say(str(chatbot.get_response(text)))
+    p = str(text)
+    p = p.replace('(',"").replace(")","").replace('"',"").replace("'","").replace(",","")
+    await bot.say(str(chatbot.get_response(p)))
 
 t = open("cbtoken","r").readline()
 bot.run(t)
