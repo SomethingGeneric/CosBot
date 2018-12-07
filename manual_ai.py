@@ -27,3 +27,6 @@ while True:
         r = str(chatbot.get_response(i))
         print("AI: " + r)
         log("AI: " + r)
+        os.system('say "' + r + '"')
+    else:
+        break
