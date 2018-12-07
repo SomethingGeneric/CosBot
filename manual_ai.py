@@ -4,13 +4,13 @@ from chatterbot.trainers import ChatterBotCorpusTrainer
 
 import rmutil
 
-r = rmutil.util()
-r.do()
-print("\n"*200)
+#r = rmutil.util()
+#r.do()
+#print("\n"*200)
 
 chatbot = ChatBot('Bill Cosby', trainer='chatterbot.trainers.ChatterBotCorpusTrainer')
 
-chatbot.train("chatterbot.corpus.english")
+chatbot.train("./cosby.yml")
 
 def log(text):
     f = open('log.txt','a')
