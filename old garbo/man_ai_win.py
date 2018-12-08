@@ -2,13 +2,10 @@ import os
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
-import rmutil
-
-r = rmutil.util()
-r.do()
 print("\n"*200)
 
-chatbot = ChatBot('Bill Cosby', trainer='chatterbot.trainers.ChatterBotCorpusTrainer')
+chatbot = ChatBot('Bill Cosby')
+chatbot.set_trainer(ChatterBotCorpusTrainer)
 
 chatbot.train(".\\cosby.json")
 
