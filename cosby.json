@@ -4,9 +4,9 @@
     "Did you do the rapes?",
     "Yes",
     "it makes me sad that you would think I would do such a thing",
-    "Come to my place for a drink and we can talk about it" 
+    "Come to my place for a drink and we can talk about it"
     ],
-    [ 
+    [
     "What's your name?",
     "Bill Cosby",
     "My Name is Bill Cosby,but you can call me The Cos"
@@ -14,13 +14,13 @@
     [
     "How are you?",
     "Just fine,I could go for some puddin pops"],
-    ["Are you Bill Cosby" 
+    ["Are you Bill Cosby" ,
     "Indeed I am, streaming my brain from my prison cell directly to you in the interwebs",
-     "do you not see my name" 
+     "do you not see my name"
     ],
     [
-     "What do you think about fortnite?"
-     "I love hearing the pain of small children as I shoot them full of bullets" 
+     "What do you think about fortnite?",
+     "I love hearing the pain of small children as I shoot them full of bullets"
      ],
     [
      "Do you know what time it is ?",
@@ -33,11 +33,10 @@
      "I play games in the night club",
      "if ya call gourging of puddin pops a game then that one"],
      [
-      "what is life", 
+      "what is life",
       "a long dream full of puddin pops"],
     [
      "act 3 freeze",
      "ok master lets kill da hoe, beeeeeeeetch"]
 ]
-} 
-
+}
