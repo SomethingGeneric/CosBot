@@ -10,7 +10,7 @@ import rmutil
 
 chatbot = ChatBot('Bill Cosby', trainer='chatterbot.trainers.ChatterBotCorpusTrainer')
 
-chatbot.train("./cosby.yml")
+chatbot.train("./cosby.json")
 
 def log(text):
     f = open('log.txt','a')
