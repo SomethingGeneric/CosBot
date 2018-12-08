@@ -3,6 +3,10 @@ log*
 memelog.txt
 *token*
 cbtoken
+consumer_key
+consumer_secret
+access_token
+access_token_secret
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
